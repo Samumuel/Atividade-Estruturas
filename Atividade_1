@@ -1,0 +1,14 @@
+programa
+{
+	inteiro a = 80000
+	inteiro b = 200000
+	funcao inicio()
+	{
+		para(inteiro anos = 0; b >= a; anos ++){
+			b += b*0.015
+			a += a * 0.03
+
+		}
+		
+	}
+}
